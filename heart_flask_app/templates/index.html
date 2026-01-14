@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Prediction</title>
+</head>
+<body>
+
+<h2>Heart Disease Prediction</h2>
+
+<form method="POST">
+
+    Age: <input type="number" name="age" required><br><br>
+    Sex (1=Male, 0=Female): <input type="number" name="sex" required><br><br>
+    Chest Pain (cp): <input type="number" name="cp" required><br><br>
+    Rest BP: <input type="number" name="trestbps" required><br><br>
+    Cholesterol: <input type="number" name="chol" required><br><br>
+    FBS: <input type="number" name="fbs" required><br><br>
+    Rest ECG: <input type="number" name="restecg" required><br><br>
+    Max Heart Rate: <input type="number" name="thalach" required><br><br>
+    Exercise Angina: <input type="number" name="exang" required><br><br>
+    Oldpeak: <input type="number" name="oldpeak" step="any" required><br><br>
+    Slope: <input type="number" name="slope" required><br><br>
+    CA: <input type="number" name="ca" required><br><br>
+    Thal: <input type="number" name="thal" required><br><br>
+
+    <button type="submit">Predict</button>
+
+</form>
+
+<h3>{{ result }}</h3>
+
+</body>
+</html>
